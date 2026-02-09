@@ -32,8 +32,10 @@ body {
 }
 
 .header__hand-icon {
-  width: 256px;
-  height: 256px;
+  width: 96px;
+  height: 96px;
+
+  flex-shrink: 0;
 }
 
 .header__group {
