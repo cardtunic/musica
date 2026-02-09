@@ -71,7 +71,7 @@
   background: linear-gradient(
     90deg,
     rgba(155, 42, 42, 1) 6%,
-    rgba(199, 197, 87, 1) 32%,
+    rgba(199, 197, 87, 1) 15%,
     rgba(83, 237, 106, 1) 48%,
     rgba(83, 150, 237, 1) 64%,
     rgba(229, 83, 237, 1) 80%,
@@ -80,7 +80,7 @@
 
   background-size: 400% 400%;
 
-  animation: rainbow 10s ease infinite;
+  animation: rainbow 5s ease infinite;
 }
 
 .rainbow--text {
