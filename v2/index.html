@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="components.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward"
+    />
+
+    <title>Músicas</title>
+  </head>
+  <body>
+    <header class="header">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 36 36"
+        width="200px"
+        class="header__hand-icon"
+      >
+        <path
+          fill="#FFDC5D"
+          d="M32.375 16.219c-1.381-.611-3.354.208-4.75 2.188-.917 1.3-1.187 3.151-2.391 3.344-.46.074-.71-.206-.84-.609-.137-.68-.107-1.731.147-3.201l2.74-12.315c.218-.941-.293-1.852-1.523-2.149s-2.155.306-2.374 1.247L20.938 15.89c-.493 2.466-1.407 2.018-1.186-.775v-.001l.701-13.092C20.51 1.01 19.732.183 18.582.139c-1.15-.044-1.979.646-2.038 1.657l-.668 13.409c-.143 2.707-1.112 1.687-1.322-.274L13 4.083c-.159-1.023-1.118-1.73-2.268-1.546-1.15.185-1.845 1.136-1.686 2.159l1.495 9.914c.593 3.785-.182 4.833-1.458.723L7.489 9.308c-.26-.967-1.213-1.567-2.41-1.231-1.197.336-1.713 1.299-1.454 2.266l1.558 5.663c.651 4.077.651 5.686.651 8.493S7.125 36 17 36s11.906-10.031 12-10.666c0 0 .123-1.48 1.156-2.865 1.469-1.969 2.5-3.156 3.125-3.866.317-.359.625-1.707-.906-2.384z"
+        />
+        <path
+          fill="#EF9645"
+          d="M24.911 21.741c-.3-.122-.554-.436-.584-1.119-1.892.259-4.451.789-6.42 2.715-2.556 2.499-2.992 5.2-2.971 7.007.017 1.457.812 2.147 1.045-.012.293-2.727 2.282-8.143 8.93-8.591z"
+        />
+      </svg>
+
+      <hgroup class="header__group">
+        <h1 class="header__h1">
+          Top 5 Músicas de <span class="rainbow rainbow--text">2025</span>
+        </h1>
+        <p class="header__description">
+          Músicas que eu ouvi em 2025,
+          <small
+            >não necessáriamento significa que foram lançadas em 2025, tipo, eu
+            ouvi, no entanto, o lançamento não é 2025. Então no caso se uma
+            música for por exemplo de 2024 e está na lista, é porque eu ouvi ela
+            pela primeira vez em 2025, mas a música foi lançada em 2024, logo,
+            não está errado.</small
+          >
+        </p>
+      </hgroup>
+    </header>
+
+    <main class="main">
+      <div class="music-container">
+        <article class="music">
+          <div class="music__rank-place-container">
+            <p class="music__rank-place">1</p>
+            <img
+              src="/assets/blues.jpg"
+              alt="Capa da música Blues (2024) de Gerogie Greep"
+              class="music__cover"
+            />
+          </div>
+          <div class="music__details">
+            <div class="music__details-container">
+              <h3 class="music__title">Blues</h3>
+
+              <div class="music__details-grouped">
+                <p class="music__artist">Gerogie Greep</p>
+                <p class="music__release">2024</p>
+              </div>
+            </div>
+
+            <a href="musics/blues.html">
+              <button class="button button--secondary">
+                Ver detalhes
+                <span class="material-symbols-outlined">arrow_forward</span>
+              </button>
+            </a>
+          </div>
+        </article>
+
+        <article class="music">
+          <div class="music__rank-place-container">
+            <p class="music__rank-place">2</p>
+            <img
+              src="/assets/sunglasses.jpg"
+              alt="Capa da música Sunglasses (2021) de Black Country, New Road"
+              class="music__cover"
+            />
+          </div>
+          <div class="music__details">
+            <div class="music__details-container">
+              <h3 class="music__title">Sunglasses</h3>
+
+              <div class="music__details-grouped">
+                <p class="music__artist">Black Country, New Road</p>
+                <p class="music__release">2021</p>
+              </div>
+            </div>
+
+            <a href="musics/sunglasses.html">
+              <button class="button button--secondary">
+                Ver detalhes
+                <span class="material-symbols-outlined">arrow_forward</span>
+              </button>
+            </a>
+          </div>
+        </article>
+
+        <article class="music">
+          <div class="music__rank-place-container">
+            <p class="music__rank-place">3</p>
+            <img
+              src="/assets/second_sleep.webp"
+              alt="Capa da música Second Sleep (2025) de Magdalena Bay"
+              class="music__cover"
+            />
+          </div>
+          <div class="music__details">
+            <div class="music__details-container">
+              <h3 class="music__title">Second Sleep</h3>
+
+              <div class="music__details-grouped">
+                <p class="music__artist">Magdalena Bay</p>
+                <p class="music__release">2025</p>
+              </div>
+            </div>
+
+            <a href="musics/second_sleep.html">
+              <button class="button button--secondary">
+                Ver detalhes
+                <span class="material-symbols-outlined">arrow_forward</span>
+              </button>
+            </a>
+          </div>
+        </article>
+
+        <article class="music">
+          <div class="music__rank-place-container">
+            <p class="music__rank-place">4</p>
+            <img
+              src="/assets/look_down.jpg"
+              alt="Capa da música Look Down on Us (2025) de Maruja"
+              class="music__cover"
+            />
+          </div>
+          <div class="music__details">
+            <div class="music__details-container">
+              <h3 class="music__title">Look Down on Us</h3>
+
+              <div class="music__details-grouped">
+                <p class="music__artist">Maruja</p>
+                <p class="music__release">2025</p>
+              </div>
+            </div>
+
+            <a href="musics/look_down_on_us.html">
+              <button class="button button--secondary">
+                Ver detalhes
+                <span class="material-symbols-outlined">arrow_forward</span>
+              </button>
+            </a>
+          </div>
+        </article>
+
+        <article class="music">
+          <div class="music__rank-place-container">
+            <p class="music__rank-place">5</p>
+            <img
+              src="/assets/nancy.jpg"
+              alt="Capa da música Nancy Tries to Take the Night (2025) de Black Country, New Road"
+              class="music__cover"
+            />
+          </div>
+          <div class="music__details">
+            <div class="music__details-container">
+              <h3 class="music__title">Nancy Tries to Take the Night</h3>
+
+              <div class="music__details-grouped">
+                <p class="music__artist">Black Country, New Road</p>
+                <p class="music__release">2025</p>
+              </div>
+            </div>
+
+            <a href="musics/nancy_tries_to_take_the_night.html">
+              <button class="button button--secondary">
+                Ver detalhes
+                <span class="material-symbols-outlined">arrow_forward</span>
+              </button>
+            </a>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <img class="footer__image" src="/assets/gifs/alien_pls.avif" />
+      <img class="footer__image" src="/assets/gifs/skeleton_pls.avif" />
+      <img class="footer__image" src="/assets/gifs/alien_pls2.avif" />
+      <img class="footer__image" src="/assets/gifs/liz_pls.avif" />
+    </footer>
+  </body>
+</html>

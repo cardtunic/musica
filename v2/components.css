@@ -1,0 +1,102 @@
+/* Buttons */
+
+.button {
+  display: flex;
+  align-items: center;
+
+  gap: 4px;
+
+  font-size: 1em;
+
+  padding: 12px 16px;
+}
+
+.button > .arrow_forward {
+  font-size: 0.9em;
+}
+
+.button--secondary {
+  background-color: rgb(226, 226, 226);
+  border-radius: 0.5rem;
+}
+
+.button--ghost {
+  background-color: rgba(226, 226, 226, 0);
+  border-radius: 0.5rem;
+}
+
+.button--ghost::hover {
+  background-color: rgb(226, 226, 226);
+}
+
+.button--icon {
+  display: flex;
+  width: 48px;
+  height: 48px;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+}
+
+.button--icon > span {
+  font-size: 1.2em;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+
+  position: absolute;
+
+  z-index: 1;
+
+  bottom: 0;
+
+  background-color: white;
+
+  padding: 10px 0px;
+  border-top: 1px solid black;
+
+  width: 100%;
+}
+
+/* Rainbow */
+
+.rainbow {
+  background: #9b2a2a;
+  background: linear-gradient(
+    90deg,
+    rgba(155, 42, 42, 1) 6%,
+    rgba(199, 197, 87, 1) 32%,
+    rgba(83, 237, 106, 1) 48%,
+    rgba(83, 150, 237, 1) 64%,
+    rgba(229, 83, 237, 1) 80%,
+    rgba(237, 83, 129, 1) 96%
+  );
+
+  background-size: 400% 400%;
+
+  animation: rainbow 10s ease infinite;
+}
+
+.rainbow--text {
+  background-clip: text;
+  color: transparent;
+  text-shadow: none;
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
